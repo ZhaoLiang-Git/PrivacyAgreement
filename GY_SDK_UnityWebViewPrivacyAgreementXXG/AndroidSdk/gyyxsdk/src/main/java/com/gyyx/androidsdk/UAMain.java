@@ -102,8 +102,10 @@ public class UAMain {
     public static String getOAID(){ return  DeviceIdentifier.getOAID(unityContext); }
     //获取mac,可能为空
     public static String getMac(){return  UnityTool.GetMac(unityContext); }
-    //获取IP,可能为空
-    public static String getIP() { return  UnityTool.getIPv4Address(true); }
+    //获取IPv4
+    public static String getIPv4() { return  UnityTool.getIPv4Address(true); }
+    //获取IPv6
+    public static String getIPv6() { return  UnityTool.getIPv4Address(false); }
 
     // 获取OAID/AAID，异步回调
 

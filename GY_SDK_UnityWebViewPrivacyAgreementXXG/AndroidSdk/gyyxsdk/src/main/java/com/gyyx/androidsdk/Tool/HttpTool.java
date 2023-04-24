@@ -30,7 +30,7 @@ public class HttpTool {
             //Get请求不需要DoOutPut
             conn.setDoOutput(false);
             conn.setDoInput(true);
-            // 设置连接超时为5秒
+            // 设置连接超时为2秒
             conn.setConnectTimeout(2000);
             conn.setReadTimeout(2000);
             conn.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
