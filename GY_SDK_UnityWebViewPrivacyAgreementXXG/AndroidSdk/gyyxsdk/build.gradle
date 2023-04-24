@@ -1,11 +1,11 @@
-apply plugin: 'com.android.library'
-apply plugin: 'maven-publish'
-group = 'com.github.ZhaoLiang-Git'
-//plugins {
-//    id 'com.android.library'
-//    //引入插件
-//    id 'maven-publish'
-//}
+//apply plugin: 'com.android.library'
+//apply plugin: 'maven-publish'
+//group = 'com.github.ZhaoLiang-Git'
+plugins {
+    id 'com.android.library'
+    //引入插件
+    id 'maven-publish'
+}
 
 
 android {

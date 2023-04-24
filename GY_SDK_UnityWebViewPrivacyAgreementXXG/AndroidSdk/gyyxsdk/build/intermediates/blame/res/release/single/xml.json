@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\A-GitProject\\PrivacyAgreementTool\\GY_SDK_UnityWebViewPrivacyAgreementXXG\\AndroidSdk\\gyyxsdk\\build\\intermediates\\res\\merged\\release\\xml\\network_security_config.xml",
+        "source": "E:\\A-GitProject\\PrivacyAgreementTool\\GY_SDK_UnityWebViewPrivacyAgreementXXG\\AndroidSdk\\gyyxsdk\\src\\main\\res\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "E:\\A-GitProject\\PrivacyAgreementTool\\GY_SDK_UnityWebViewPrivacyAgreementXXG\\AndroidSdk\\gyyxsdk\\build\\intermediates\\res\\merged\\release\\xml\\provider_paths.xml",
+        "source": "E:\\A-GitProject\\PrivacyAgreementTool\\GY_SDK_UnityWebViewPrivacyAgreementXXG\\AndroidSdk\\gyyxsdk\\src\\main\\res\\xml\\provider_paths.xml"
+    }
+]
