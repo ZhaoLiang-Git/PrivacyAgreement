@@ -3,7 +3,7 @@
 Unity游戏和应用的隐私协议
 
 - GitHub：`https://github.com/ZhaoLiang-Git/PrivacyAgreement`
-- 码云(GitEE)：`https://gitee.com/li_yu_jiang/Android_CN_OAID`
+- 码云(GitEE)：`https://gitee.com/zhaoliangliang/UnityPrivacyAgreementTool`
 
 ## 接入指引
 
@@ -24,6 +24,6 @@ allprojects {
 
 ```groovy
 dependencies {
-    implementation 'com.github.gzu-liyujiang:Android_CN_OAID:<version>'
+    implementation 'com.github.ZhaoLiang-Git:PrivacyAgreement:<version>'
 }
 ```
