@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/androidSdk.iml" filepath="$PROJECT_DIR$/androidSdk.iml" group="androidSdk" />
+      <module fileurl="file://$PROJECT_DIR$/gyyxsdk/gyyxsdk.iml" filepath="$PROJECT_DIR$/gyyxsdk/gyyxsdk.iml" group="androidSdk/gyyxsdk" />
+    </modules>
+  </component>
+</project>

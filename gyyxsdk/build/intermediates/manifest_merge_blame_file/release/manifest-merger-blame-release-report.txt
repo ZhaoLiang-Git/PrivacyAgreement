@@ -1,0 +1,84 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.gyyx.androidsdk.androidsdk"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="19"
+9-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.READ_PHONE_STATE" /> <!-- 允许读取手机状态 -->
+12-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:4:5-75
+12-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:4:22-72
+13    <uses-permission android:name="android.permission.INTERNET" /> <!-- 网络访问权限 -->
+13-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:5:5-67
+13-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:5:22-64
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- wifi状态 -->
+14-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:6:5-75
+14-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:6:22-73
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 网络状态 -->
+15-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:7:5-78
+15-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:7:22-76
+16    <uses-permission
+16-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:8:5-10:47
+17        android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"
+17-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:9:9-70
+18        tools:ignore="ProtectedPermissions" />
+18-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:10:9-44
+19
+20    <application
+20-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:12:5-26:19
+21        android:hardwareAccelerated="false"
+21-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:13:9-44
+22        android:largeHeap="true"
+22-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:12:115-139
+23        android:networkSecurityConfig="@xml/network_security_config"
+23-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:12:54-114
+24        android:usesCleartextTraffic="true" >
+24-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:12:18-53
+25        <uses-library
+25-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:14:9-88
+26            android:name="org.apache.http.legacy"
+26-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:14:23-60
+27            android:required="false" />
+27-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:14:61-85
+28        <!-- 禁止权限弹窗 -->
+29        <meta-data
+29-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:16:9-92
+30            android:name="unityplayer.SkipPermissionsDialog"
+30-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:16:20-68
+31            android:value="true" />
+31-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:16:69-89
+32
+33        <activity
+33-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:17:9-20:20
+34            android:name="com.gyyx.androidsdk.PrivacyAgreementWebViewActivity"
+34-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:17:19-85
+35            android:configChanges="keyboardHidden|orientation|screenSize|locale|layoutDirection"
+35-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:18:13-97
+36            android:windowSoftInputMode="adjustPan|stateHidden" >
+36-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:19:13-64
+37        </activity>
+38        <activity
+38-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:21:9-24:20
+39            android:name="com.gyyx.androidsdk.PrivacyAgreementActivityNew"
+39-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:21:19-81
+40            android:configChanges="keyboardHidden|orientation|screenSize|locale|layoutDirection"
+40-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:22:13-97
+41            android:windowSoftInputMode="adjustPan|stateHidden" >
+41-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:23:13-64
+42        </activity>
+43
+44        <meta-data
+44-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:25:9-72
+45            android:name="SDK_GameID"
+45-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:25:20-45
+46            android:value="88866620" />
+46-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:25:46-70
+47    </application>
+48
+49</manifest>

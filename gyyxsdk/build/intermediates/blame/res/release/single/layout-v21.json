@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\A-GitProject\\PrivacyAgreementTool\\gyyxsdk\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\b9fc3a637a408352d5c86c5e074f61f1\\core-1.1.0\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "E:\\A-GitProject\\PrivacyAgreementTool\\gyyxsdk\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\b9fc3a637a408352d5c86c5e074f61f1\\core-1.1.0\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\A-GitProject\\PrivacyAgreementTool\\gyyxsdk\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\b9fc3a637a408352d5c86c5e074f61f1\\core-1.1.0\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "E:\\A-GitProject\\PrivacyAgreementTool\\gyyxsdk\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\b9fc3a637a408352d5c86c5e074f61f1\\core-1.1.0\\res\\layout-v21\\notification_action_tombstone.xml"
+    }
+]
