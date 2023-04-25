@@ -7,7 +7,7 @@ Unity游戏和应用的隐私协议
 
 ## 接入指引
 
-最新版本：[![jitpack](https://jitpack.io/v/ZhaoLiang-Git/PrivacyAgreement.svg)](https://jitpack.io/#gzu-liyujiang/Android_CN_OAID)
+最新版本：[![jitpack](https://jitpack.io/v/ZhaoLiang-Git/PrivacyAgreement.svg)](https://jitpack.io/#ZhaoLiang-Git/PrivacyAgreement)
 （[更新日志](/CHANGELOG.md)）
 
 ### 依赖配置
