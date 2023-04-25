@@ -1,6 +1,5 @@
 //apply plugin: 'com.android.library'
 //apply plugin: 'maven-publish'
-//group = 'com.github.ZhaoLiang-Git'
 plugins {
     id 'com.android.library'
     //引入插件
@@ -52,6 +51,7 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.1.0'
     //implementation 'com.github.smarxpan:NotchScreenTool:0.0.1'//国内屏幕适配包
     implementation 'com.github.gzu-liyujiang:Android_CN_OAID:4.2.4'
+    //implementation 'com.github.ZhaoLiang-Git:PrivacyAgreement:1.0.0'
 }
 
 //将源码打包
@@ -70,9 +70,9 @@ afterEvaluate {
                 // 方式一：生成aar包
                 afterEvaluate { artifact(tasks.getByName("bundleReleaseAar")) }
                 // 方式二：指定生成的aar路径
-                //发布仓库的文件路径
+                //发布仓库的文件路径(包名)
                 groupId = 'com.gyyx.androidsdk'
-                //库名
+                //库名(自己起的库名)
                 artifactId = 'privacyAgreement'
                 //版本号
                 version = '1.0.0'
