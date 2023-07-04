@@ -7,6 +7,7 @@ import android.content.Intent;
 import com.github.gzuliyujiang.oaid.DeviceID;
 import com.github.gzuliyujiang.oaid.DeviceIdentifier;
 import com.github.gzuliyujiang.oaid.IGetter;
+import com.gyyx.androidsdk.Tool.HttpTool;
 import com.gyyx.androidsdk.Tool.MySharedPreferences;
 import com.gyyx.androidsdk.Tool.UnityTool;
 import com.unity3d.player.UnityPlayer;
@@ -28,6 +29,11 @@ public class UAMain {
         unityPlayer = player;
         UnityTool.unityLog("InitContext ok!");
         UnityTool.callUnity("InitContext", "InitContext ok!");
+        try {
+            HttpTool.postHttpsXXG(getMac(),getOAID(),"",getAndroidID(),String.valueOf(PrivacyAgreementActivityNew.GamesID),getIPv4(),getPseudoID(),null);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public static void initSdk(String json) {

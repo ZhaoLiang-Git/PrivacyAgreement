@@ -116,7 +116,7 @@ public class PrivacyAgreementActivity {
         new Thread() {
             public void run() {
                 try {
-                    HttpTool.postHttps("event_3",null);
+                    //HttpTool.postHttps("event_3",null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -133,7 +133,7 @@ public class PrivacyAgreementActivity {
         new Thread() {
             public void run() {
                 try {
-                    HttpTool.postHttps("event_4", MainActivity.mActivity);
+                    //HttpTool.postHttps("event_4", MainActivity.mActivity);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }

@@ -49,8 +49,9 @@ android {
 dependencies {
     compileOnly fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
     implementation 'androidx.appcompat:appcompat:1.1.0'
-    //implementation 'com.github.smarxpan:NotchScreenTool:0.0.1'//国内屏幕适配包
     implementation 'com.github.gzu-liyujiang:Android_CN_OAID:4.2.4'
+    implementation 'pub.devrel:easypermissions:3.0.0'
+    //implementation 'com.github.smarxpan:NotchScreenTool:0.0.1'//国内屏幕适配包
     //implementation 'com.github.ZhaoLiang-Git:PrivacyAgreement:1.0.0'
 }
 

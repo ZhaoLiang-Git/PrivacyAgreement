@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/androidSdk.iml" filepath="$PROJECT_DIR$/androidSdk.iml" group="androidSdk" />
+      <module fileurl="file://$PROJECT_DIR$/androidSdk.iml" filepath="$PROJECT_DIR$/androidSdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gyyxsdk/androidSdk.gyyxsdk.iml" filepath="$PROJECT_DIR$/.idea/modules/gyyxsdk/androidSdk.gyyxsdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gyyxsdk/androidSdk.gyyxsdk.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/gyyxsdk/androidSdk.gyyxsdk.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gyyxsdk/androidSdk.gyyxsdk.main.iml" filepath="$PROJECT_DIR$/.idea/modules/gyyxsdk/androidSdk.gyyxsdk.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gyyxsdk/androidSdk.gyyxsdk.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/gyyxsdk/androidSdk.gyyxsdk.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/gyyxsdk/gyyxsdk.iml" filepath="$PROJECT_DIR$/gyyxsdk/gyyxsdk.iml" group="androidSdk/gyyxsdk" />
     </modules>
   </component>

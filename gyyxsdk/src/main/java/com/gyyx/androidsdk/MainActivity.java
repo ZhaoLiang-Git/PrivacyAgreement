@@ -22,7 +22,7 @@ public class MainActivity extends Activity{
     public static MySharedPreferences.SharedPreferencesUtil sharedPreferencesUtil;
     public static Context mContext;
     public static Activity mActivity;
-    PrivacyAgreementActivity privacyAgreementActivity;
+    //PrivacyAgreementActivity privacyAgreementActivity;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         mContext = this.getApplicationContext();

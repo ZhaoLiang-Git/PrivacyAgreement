@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.util.Log;
 
 
-import com.gyyx.androidsdk.PrivacyAgreementActivity;
+//import com.gyyx.androidsdk.PrivacyAgreementActivity;
 import com.gyyx.androidsdk.PrivacyAgreementActivityNew;
 
 import org.json.JSONObject;
@@ -70,80 +70,82 @@ public class HttpTool {
         return result.toString();
     }
 
-    public static void postHttps(String event ,Activity activity) throws IOException {
-        OutputStreamWriter out = null;
-        BufferedReader in = null;
-        StringBuilder result = new StringBuilder();
-        HttpURLConnection conn = null;
-        try{
-            URL url = new URL("http://yg-game.gyyx.cn:11227/send-message");
-//            JSONObject FacebookLoginInfoReturn = new JSONObject();
-//            FacebookLoginInfoReturn.put("logEventType",event);
-//            FacebookLoginInfoReturn.put("logOccurTime", new Date().getTime());
-//            FacebookLoginInfoReturn.toString();
-            conn = (HttpURLConnection) url.openConnection();
-            conn.setRequestMethod("POST");
-            //发送POST请求必须设置为true
-            conn.setDoOutput(true);
-            conn.setDoInput(true);
-            //设置连接超时时间和读取超时时间
-            conn.setConnectTimeout(5000);
-            conn.setReadTimeout(5000);
-            conn.setRequestProperty("Content-Type", "application/json");
-            conn.setRequestProperty("Accept", "application/json");
-            //获取输出流
-            out = new OutputStreamWriter(conn.getOutputStream());
-            JSONObject param = new JSONObject();
-            param.put("topic", "sgjxs_test_cn");
-            String messageJsonValue ="{\"logEventType\":\""+event+"\",\"logOccurTime\":"+new Date().getTime()+"}";
-            Log.i("GYYX",messageJsonValue);
-            //String messageJsonValue = "{"+"logEventType"+":"+event+","+"logOccurTime"+":"+ new Date().getTime() +"}";
-            param.put("message", messageJsonValue);
-            String jsonStr = param.toString();
-            out.write(jsonStr);
-            out.flush();
-            out.close();
-            //取得输入流，并使用Reader读取
-            if (200 == conn.getResponseCode()){
-                in = new BufferedReader(new InputStreamReader(conn.getInputStream(), "UTF-8"));
-                String line;
-                while ((line = in.readLine()) != null){
-                    result.append(line);
-                    System.out.println(line);
-                }
-                //请求成功
-                Log.i("GYYX","请求成功");
-                if (PrivacyAgreementActivityNew.mActivity !=null)PrivacyAgreementActivityNew.mActivity.finish();
-                if (activity!=null)activity.finish();
-            }else{
-                System.out.println("ResponseCode is an error code:" + conn.getResponseCode());
-                //请求失败
-                Log.i("GYYX","请求失败");
-                if (PrivacyAgreementActivityNew.mActivity !=null)PrivacyAgreementActivityNew.mActivity.finish();
-                if (activity!=null)activity.finish();
-            }
-        }catch (Exception e){
-            e.printStackTrace();
-        }finally {
-            try{
-                if(out != null){
-                    out.close();
-                }
-                if(in != null){
-                    in.close();
-                }
-            }catch (IOException ioe){
-                ioe.printStackTrace();
-            }
-        }
-    }
+//    public static void postHttps(String event ,Activity activity) throws IOException {
+//        OutputStreamWriter out = null;
+//        BufferedReader in = null;
+//        StringBuilder result = new StringBuilder();
+//        HttpURLConnection conn = null;
+//        try{
+//            URL url = new URL("http://yg-game.gyyx.cn:11227/send-message");
+////            JSONObject FacebookLoginInfoReturn = new JSONObject();
+////            FacebookLoginInfoReturn.put("logEventType",event);
+////            FacebookLoginInfoReturn.put("logOccurTime", new Date().getTime());
+////            FacebookLoginInfoReturn.toString();
+//            conn = (HttpURLConnection) url.openConnection();
+//            conn.setRequestMethod("POST");
+//            //发送POST请求必须设置为true
+//            conn.setDoOutput(true);
+//            conn.setDoInput(true);
+//            //设置连接超时时间和读取超时时间
+//            conn.setConnectTimeout(5000);
+//            conn.setReadTimeout(5000);
+//            conn.setRequestProperty("Content-Type", "application/json");
+//            conn.setRequestProperty("Accept", "application/json");
+//            //获取输出流
+//            out = new OutputStreamWriter(conn.getOutputStream());
+//            JSONObject param = new JSONObject();
+//            param.put("topic", "sgjxs_test_cn");
+//            String messageJsonValue ="{\"logEventType\":\""+event+"\",\"logOccurTime\":"+new Date().getTime()+"}";
+//            Log.i("GYYX",messageJsonValue);
+//            //String messageJsonValue = "{"+"logEventType"+":"+event+","+"logOccurTime"+":"+ new Date().getTime() +"}";
+//            param.put("message", messageJsonValue);
+//            String jsonStr = param.toString();
+//            out.write(jsonStr);
+//            out.flush();
+//            out.close();
+//            //取得输入流，并使用Reader读取
+//            if (200 == conn.getResponseCode()){
+//                in = new BufferedReader(new InputStreamReader(conn.getInputStream(), "UTF-8"));
+//                String line;
+//                while ((line = in.readLine()) != null){
+//                    result.append(line);
+//                    System.out.println(line);
+//                }
+//                //请求成功
+//                Log.i("GYYX","请求成功");
+//                if (PrivacyAgreementActivityNew.mActivity !=null)PrivacyAgreementActivityNew.mActivity.finish();
+//                if (activity!=null)activity.finish();
+//            }else{
+//                System.out.println("ResponseCode is an error code:" + conn.getResponseCode());
+//                //请求失败
+//                Log.i("GYYX","请求失败");
+//                if (PrivacyAgreementActivityNew.mActivity !=null)PrivacyAgreementActivityNew.mActivity.finish();
+//                if (activity!=null)activity.finish();
+//            }
+//        }catch (Exception e){
+//            e.printStackTrace();
+//        }finally {
+//            try{
+//                if(out != null){
+//                    out.close();
+//                }
+//                if(in != null){
+//                    in.close();
+//                }
+//            }catch (IOException ioe){
+//                ioe.printStackTrace();
+//            }
+//        }
+//    }
 
-    public static void postHttpsXXG(String mac,String oaid,String idfa,String androidid,int gameid ,Activity activity) throws IOException {
+    public static void postHttpsXXG(String mac,String oaid,String idfa,String androidid,String gameid ,String ip,String id,Activity activity) throws IOException {
         Log.i("GYYX mac 信息",mac);
         Log.i("GYYX oaid 信息",oaid);
         Log.i("GYYX idfa 信息",idfa);
         Log.i("GYYX androidid 信息",androidid);
         Log.i("GYYX gameid 信息",gameid+"");
+        Log.i("GYYX ip 信息",ip);
+        Log.i("GYYX id 信息",id);
         OutputStreamWriter out = null;
         BufferedReader in = null;
         StringBuilder result = new StringBuilder();
@@ -168,6 +170,10 @@ public class HttpTool {
             param.put("idfa", idfa);
             param.put("androidid", androidid);
             param.put("game_id", gameid);
+            param.put("ts", System.currentTimeMillis());
+            param.put("ip", ip);
+            param.put("device_id", id);
+            param.put("device_os", "android");
             String jsonStr = param.toString();
             out.write(jsonStr);
             out.flush();

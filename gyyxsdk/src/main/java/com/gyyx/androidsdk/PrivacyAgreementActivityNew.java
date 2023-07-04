@@ -116,8 +116,7 @@ public class PrivacyAgreementActivityNew extends Activity {
                 try {
                     MainActivity.EnterUnityActivity();
                     DeviceIdentifier.register(MainActivity.mActivity.getApplication());
-                    //HttpTool.postHttps("event_3",null);
-                    HttpTool.postHttpsXXG(UnityTool.GetMac(MainActivity.mContext),DeviceIdentifier.getOAID(MainActivity.mContext),"",DeviceIdentifier.getAndroidID(MainActivity.mContext),GamesID,null);
+                    //HttpTool.postHttpsXXG(UnityTool.GetMac(MainActivity.mContext),DeviceIdentifier.getOAID(MainActivity.mContext),"",DeviceIdentifier.getAndroidID(MainActivity.mContext),String.valueOf(GamesID),UAMain.getIPv4(),DeviceIdentifier.getPseudoID(),null);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
