@@ -139,13 +139,13 @@ public class HttpTool {
 //    }
 
     public static void postHttpsXXG(String mac,String oaid,String idfa,String androidid,String gameid ,String ip,String id,Activity activity) throws IOException {
-        Log.i("GYYX mac 信息",mac);
-        Log.i("GYYX oaid 信息",oaid);
-        Log.i("GYYX idfa 信息",idfa);
-        Log.i("GYYX androidid 信息",androidid);
-        Log.i("GYYX gameid 信息",gameid+"");
-        Log.i("GYYX ip 信息",ip);
-        Log.i("GYYX id 信息",id);
+        System.out.println("GYYX mac 信息"+mac);
+        System.out.println("GYYX oaid 信息"+oaid);
+        System.out.println("GYYX idfa 信息"+idfa);
+        System.out.println("GYYX androidid 信息"+androidid);
+        System.out.println("GYYX gameid 信息"+gameid);
+        System.out.println("GYYX ip 信息"+ip);
+        System.out.println("GYYX id 信息"+id);
         OutputStreamWriter out = null;
         BufferedReader in = null;
         StringBuilder result = new StringBuilder();
