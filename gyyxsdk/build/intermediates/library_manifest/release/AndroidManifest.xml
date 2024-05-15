@@ -43,7 +43,7 @@
 
         <meta-data
             android:name="SDK_GameID"
-            android:value="88866620" />
+            android:value="/88866620" />
     </application>
 
 </manifest>

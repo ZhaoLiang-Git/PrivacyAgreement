@@ -27,7 +27,7 @@ public class MainActivity extends Activity{
         super.onCreate(savedInstanceState);
         mContext = this.getApplicationContext();
         mActivity = this;
-        int GamesID = UnityTool.getAMValue("SDK_GameID",this);
+        String GamesID = UnityTool.getAMValue("SDK_GameID",this);
         new Thread() {
             public void run() {
                 try {

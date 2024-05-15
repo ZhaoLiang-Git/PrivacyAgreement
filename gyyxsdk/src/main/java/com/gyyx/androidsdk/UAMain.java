@@ -30,7 +30,7 @@ public class UAMain {
         UnityTool.unityLog("InitContext ok!");
         UnityTool.callUnity("InitContext", "InitContext ok!");
         try {
-            if (PrivacyAgreementActivityNew.GamesID != 0){
+            if (!PrivacyAgreementActivityNew.GamesID.equals("0")){
                 HttpTool.postHttpsXXG(getMac(),getOAID(),"",getAndroidID(),String.valueOf(PrivacyAgreementActivityNew.GamesID),getIPv4(),getPseudoID(),null);
             }
         } catch (Exception e) {

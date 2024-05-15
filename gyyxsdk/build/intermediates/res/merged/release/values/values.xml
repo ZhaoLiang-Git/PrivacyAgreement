@@ -25,7 +25,10 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
+    <color name="colorAccent">#ff80cbc4</color>
     <color name="colorBlack">#000000</color>
+    <color name="colorPrimary">#ff212121</color>
+    <color name="colorPrimaryDark">@android:color/black</color>
     <color name="colorWhite">#FFFFFF</color>
     <color name="common_black">#202122</color>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
@@ -311,6 +314,11 @@
     <string name="inputVerification_code">输入短信验证码</string>
     <string name="noAccept_Tips">请阅读并同意相关协议</string>
     <string name="phone_code">输入手机号登录</string>
+    <string name="rationale_ask">This app may not work correctly without the requested permissions.</string>
+    <string name="rationale_ask_again">
+        This app may not work correctly without the requested permissions.
+        Open the app settings screen to modify app permissions.
+    </string>
     <string name="sdk_name">GYYXSDK</string>
     <string name="search_menu_title">Search</string>
     <string name="smssdk_RevisePhone">新手机号</string>
@@ -326,6 +334,7 @@
     <string name="smssdk_verify">验证</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="tips_phoneSame">新旧手机号输入一致请重新输入</string>
+    <string name="title_settings_dialog">Permissions Required</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
@@ -1405,6 +1414,19 @@
         <item name="android:background">?attr/controlBackground</item>
         <item name="android:minWidth">56dp</item>
         <item name="android:scaleType">center</item>
+    </style>
+    <style name="EasyPermissions" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="EasyPermissions.Transparent">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
     </style>
     <style name="Platform.AppCompat" parent="android:Theme.Holo">
         <item name="android:windowNoTitle">true</item>

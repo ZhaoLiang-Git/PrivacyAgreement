@@ -69,7 +69,7 @@
         errorLine2="                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\java\com\gyyx\androidsdk\Tool\UnityTool.java"
-            line="201"
+            line="204"
             column="18"/>
     </issue>
 
@@ -87,7 +87,7 @@
         errorLine2="                                                         ~~~~~~~~~~~">
         <location
             file="E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\java\com\gyyx\androidsdk\Tool\UnityTool.java"
-            line="225"
+            line="228"
             column="58"/>
     </issue>
 
@@ -105,7 +105,7 @@
         errorLine2="                                                                                                   ~~~~~~~~~~~">
         <location
             file="E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\java\com\gyyx\androidsdk\Tool\UnityTool.java"
-            line="225"
+            line="228"
             column="100"/>
     </issue>
 
@@ -123,7 +123,7 @@
         errorLine2="        ~~~~~~~~~~~~~~~~~~~">
         <location
             file="E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\build.gradle"
-            line="28"
+            line="27"
             column="9"/>
     </issue>
 
@@ -225,7 +225,7 @@
         errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\build.gradle"
-            line="13"
+            line="12"
             column="5"/>
     </issue>
 
@@ -241,7 +241,7 @@
         errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\build.gradle"
-            line="52"
+            line="51"
             column="5"/>
     </issue>
 
@@ -259,7 +259,7 @@
         errorLine2="                          ~~~~~~~~~~~~~~~~~~">
         <location
             file="E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\java\com\gyyx\androidsdk\Tool\UnityTool.java"
-            line="181"
+            line="184"
             column="27"/>
     </issue>
 
@@ -277,7 +277,7 @@
         errorLine2="                                       ~~~~~~~~~~~~~~~~~~">
         <location
             file="E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\java\com\gyyx\androidsdk\Tool\UnityTool.java"
-            line="184"
+            line="187"
             column="40"/>
     </issue>
 
@@ -295,7 +295,7 @@
         errorLine2="                   ~~~~~~~~~~~~~~~~~~">
         <location
             file="E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\java\com\gyyx\androidsdk\Tool\UnityTool.java"
-            line="187"
+            line="190"
             column="20"/>
     </issue>
 
@@ -411,7 +411,7 @@
         errorLine2="           ~~~~~~">
         <location
             file="E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\java\com\gyyx\androidsdk\UAMain.java"
-            line="19"
+            line="20"
             column="12"/>
     </issue>
 
@@ -427,7 +427,7 @@
         errorLine2="           ~~~~~~">
         <location
             file="E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\java\com\gyyx\androidsdk\UAMain.java"
-            line="20"
+            line="21"
             column="12"/>
     </issue>
 
@@ -443,7 +443,7 @@
         errorLine2="           ~~~~~~">
         <location
             file="E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\java\com\gyyx\androidsdk\UAMain.java"
-            line="22"
+            line="23"
             column="12"/>
     </issue>
 

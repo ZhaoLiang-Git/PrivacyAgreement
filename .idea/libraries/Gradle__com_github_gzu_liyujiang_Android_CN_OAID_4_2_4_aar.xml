@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.gzu-liyujiang:Android_CN_OAID:4.2.4@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/116f037b54d00af9e3d20d3b7fbc630b/Android_CN_OAID-4.2.4/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/116f037b54d00af9e3d20d3b7fbc630b/Android_CN_OAID-4.2.4/AndroidManifest.xml" />
+      <root url="jar://F:/Android_Studio_Data/.gradle/caches/transforms-2/files-2.1/116f037b54d00af9e3d20d3b7fbc630b/Android_CN_OAID-4.2.4/jars/classes.jar!/" />
+      <root url="file://F:/Android_Studio_Data/.gradle/caches/transforms-2/files-2.1/116f037b54d00af9e3d20d3b7fbc630b/Android_CN_OAID-4.2.4/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.gzu-liyujiang/Android_CN_OAID/4.2.4/84a82f2a36b8b677f9458722daf2850d41267216/Android_CN_OAID-4.2.4-sources.jar!/" />
+      <root url="jar://F:/Android_Studio_Data/.gradle/caches/modules-2/files-2.1/com.github.gzu-liyujiang/Android_CN_OAID/4.2.4/84a82f2a36b8b677f9458722daf2850d41267216/Android_CN_OAID-4.2.4-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

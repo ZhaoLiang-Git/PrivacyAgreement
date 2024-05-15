@@ -74,11 +74,11 @@
 42        </activity>
 43
 44        <meta-data
-44-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:25:9-72
+44-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:25:9-73
 45            android:name="SDK_GameID"
 45-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:25:20-45
-46            android:value="88866620" />
-46-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:25:46-70
+46            android:value="/88866620" />
+46-->E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:25:46-71
 47    </application>
 48
 49</manifest>

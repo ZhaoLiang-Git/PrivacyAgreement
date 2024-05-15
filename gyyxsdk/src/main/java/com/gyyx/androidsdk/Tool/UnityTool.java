@@ -87,17 +87,20 @@ public class UnityTool {
 
 
     //获取AndroidManifest.xml中的meta-data
-    public static int getAMValue(String name , Activity activity){
+    public static String getAMValue(String name , Activity activity){
         if (name.equals("")||activity == null)
         {
             Log.i("GYYX","传入的参数错误请检查");
-            return 0;
+            return "0";
         }
         PackageManager pm = activity.getPackageManager();
-        int val = 0;
+        String val = "0";
         try {
             ApplicationInfo info =pm.getApplicationInfo(activity.getPackageName(), PackageManager.GET_META_DATA);
-            val =  info.metaData.getInt(name);
+            String str = info.metaData.getString(name);
+            String[] b = str.split("/");
+            System.out.println("输出: "+b[1]);
+            val =  b[1];
         } catch (PackageManager.NameNotFoundException e) {
             Log.i("GYYX","获取参数异常"+e.getMessage());
             e.printStackTrace();

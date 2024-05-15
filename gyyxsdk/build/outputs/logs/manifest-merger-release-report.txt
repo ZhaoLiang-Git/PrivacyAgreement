@@ -84,9 +84,9 @@ ADDED from E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest
 	android:name
 		ADDED from E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:21:19-81
 meta-data#SDK_GameID
-ADDED from E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:25:9-72
+ADDED from E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:25:9-73
 	android:value
-		ADDED from E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:25:46-70
+		ADDED from E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:25:46-71
 	android:name
 		ADDED from E:\A-GitProject\PrivacyAgreementTool\gyyxsdk\src\main\AndroidManifest.xml:25:20-45
 uses-sdk

@@ -22,6 +22,6 @@
             android:configChanges="keyboardHidden|orientation|screenSize|locale|layoutDirection"
             android:windowSoftInputMode="adjustPan|stateHidden">
         </activity>
-        <meta-data android:name="SDK_GameID" android:value="88866620"/>
+        <meta-data android:name="SDK_GameID" android:value="/88866620"/>
     </application>
 </manifest>

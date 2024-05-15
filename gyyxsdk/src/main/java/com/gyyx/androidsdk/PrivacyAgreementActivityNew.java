@@ -26,7 +26,7 @@ import java.util.Random;
 import androidx.annotation.Nullable;
 
 public class PrivacyAgreementActivityNew extends Activity {
-    static int GamesID;
+    static String GamesID;
     public static Activity mActivity;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -60,7 +60,7 @@ public class PrivacyAgreementActivityNew extends Activity {
             @Override
             public void onClick(View widget) {
                 //打开隐私政策界面，查看隐私政策  https://game-yxy.gyyx.cn/pet/HCYProtected.html
-                if (GamesID == 0){
+                if (GamesID.equals("0")){
                     startActivity(new Intent(PrivacyAgreementActivityNew.this, PrivacyAgreementWebViewActivity.class).putExtra("URL","file:///android_asset/Protected.html").putExtra("TYPE","Protected"));
                 }
                 else {
@@ -85,7 +85,7 @@ public class PrivacyAgreementActivityNew extends Activity {
             @Override
             public void onClick(View widget) {
                 //查看用户协议
-                if (GamesID == 0){
+                if (GamesID.equals("0")){
                     startActivity(new Intent(PrivacyAgreementActivityNew.this, PrivacyAgreementWebViewActivity.class).putExtra("URL","file:///android_asset/Account.html").putExtra("TYPE","Account"));
                 }
                 else {
