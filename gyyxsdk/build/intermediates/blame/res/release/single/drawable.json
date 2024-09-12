@@ -92,6 +92,10 @@
         "source": "F:\\Android_Studio_Data\\.gradle\\caches\\transforms-2\\files-2.1\\ca831e20069c54326ebb8cc4d71f5b95\\appcompat-1.1.0\\res\\drawable\\btn_radio_off_mtrl.xml"
     },
     {
+        "merged": "E:\\A-GitProject\\PrivacyAgreementTool\\gyyxsdk\\build\\intermediates\\res\\merged\\release\\drawable\\btn_area_bg.xml",
+        "source": "E:\\A-GitProject\\PrivacyAgreementTool\\gyyxsdk\\src\\main\\res\\drawable\\btn_area_bg.xml"
+    },
+    {
         "merged": "E:\\A-GitProject\\PrivacyAgreementTool\\gyyxsdk\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "F:\\Android_Studio_Data\\.gradle\\caches\\transforms-2\\files-2.1\\ca831e20069c54326ebb8cc4d71f5b95\\appcompat-1.1.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
@@ -140,6 +144,10 @@
         "source": "F:\\Android_Studio_Data\\.gradle\\caches\\transforms-2\\files-2.1\\ca831e20069c54326ebb8cc4d71f5b95\\appcompat-1.1.0\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
+        "merged": "E:\\A-GitProject\\PrivacyAgreementTool\\gyyxsdk\\build\\intermediates\\res\\merged\\release\\drawable\\dialog_bg.xml",
+        "source": "E:\\A-GitProject\\PrivacyAgreementTool\\gyyxsdk\\src\\main\\res\\drawable\\dialog_bg.xml"
+    },
+    {
         "merged": "E:\\A-GitProject\\PrivacyAgreementTool\\gyyxsdk\\build\\intermediates\\res\\merged\\release\\drawable\\btn_radio_on_mtrl.xml",
         "source": "F:\\Android_Studio_Data\\.gradle\\caches\\transforms-2\\files-2.1\\ca831e20069c54326ebb8cc4d71f5b95\\appcompat-1.1.0\\res\\drawable\\btn_radio_on_mtrl.xml"
     },
@@ -154,6 +162,10 @@
     {
         "merged": "E:\\A-GitProject\\PrivacyAgreementTool\\gyyxsdk\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
         "source": "F:\\Android_Studio_Data\\.gradle\\caches\\transforms-2\\files-2.1\\ca831e20069c54326ebb8cc4d71f5b95\\appcompat-1.1.0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "E:\\A-GitProject\\PrivacyAgreementTool\\gyyxsdk\\build\\intermediates\\res\\merged\\release\\drawable\\flypig_edit_area_bg.xml",
+        "source": "E:\\A-GitProject\\PrivacyAgreementTool\\gyyxsdk\\src\\main\\res\\drawable\\flypig_edit_area_bg.xml"
     },
     {
         "merged": "E:\\A-GitProject\\PrivacyAgreementTool\\gyyxsdk\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material_anim.xml",
@@ -210,6 +222,10 @@
     {
         "merged": "E:\\A-GitProject\\PrivacyAgreementTool\\gyyxsdk\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
         "source": "F:\\Android_Studio_Data\\.gradle\\caches\\transforms-2\\files-2.1\\ca831e20069c54326ebb8cc4d71f5b95\\appcompat-1.1.0\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "E:\\A-GitProject\\PrivacyAgreementTool\\gyyxsdk\\build\\intermediates\\res\\merged\\release\\drawable\\btn_area_bg_privacy_disagree.xml",
+        "source": "E:\\A-GitProject\\PrivacyAgreementTool\\gyyxsdk\\src\\main\\res\\drawable\\btn_area_bg_privacy_disagree.xml"
     },
     {
         "merged": "E:\\A-GitProject\\PrivacyAgreementTool\\gyyxsdk\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_material.xml",

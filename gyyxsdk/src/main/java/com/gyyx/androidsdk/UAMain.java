@@ -8,6 +8,7 @@ import com.github.gzuliyujiang.oaid.DeviceID;
 import com.github.gzuliyujiang.oaid.DeviceIdentifier;
 import com.github.gzuliyujiang.oaid.IGetter;
 import com.gyyx.androidsdk.Tool.HttpTool;
+import com.gyyx.androidsdk.Tool.IPUntils;
 import com.gyyx.androidsdk.Tool.MySharedPreferences;
 import com.gyyx.androidsdk.Tool.UnityTool;
 import com.unity3d.player.UnityPlayer;
@@ -111,7 +112,13 @@ public class UAMain {
     //获取mac,可能为空
     public static String getMac(){return  UnityTool.GetMac(unityContext); }
     //获取IPv4
-    public static String getIPv4() { return  UnityTool.getIPv4Address(true); }
+    public static String getIPv4() {
+        if (IPUntils.IP.equals("")) {
+            System.out.println("获取外网IP");
+            return IPUntils.getIPV4();
+        }
+        return IPUntils.IP;
+    }
     //获取IPv6
     public static String getIPv6() { return  UnityTool.getIPv4Address(false); }
 

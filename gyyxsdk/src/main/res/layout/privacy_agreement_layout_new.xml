@@ -2,18 +2,20 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/smssdk_corner_blacknoradius_bg_back"
     android:orientation="vertical"
+
     android:theme="@style/transparent_activity"
-    android:windowFullscreen = "true">
+    android:windowFullscreen="true">
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:adjustViewBounds="true"
-        android:background="@drawable/smssdk_corner_blacknoradius_bg_back"
         android:clickable="true"
-        android:scaleType="fitXY"
-        >
+        android:scaleType="fitXY">
 
         <ImageView
             android:id="@+id/img1"
@@ -28,84 +30,98 @@
             android:id="@+id/tv_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="用户协议与隐私政策"
+            android:layout_alignTop="@+id/img1"
             android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:text="用户协议与隐私政策"
             android:textColor="#282828"
             android:textSize="19sp"
-            android:textStyle="bold"
-            android:layout_marginTop="25dp"
-            android:layout_alignTop="@+id/img1"
-            />
+            android:textStyle="bold" />
+
         <ScrollView
             android:id="@+id/tv_1new"
-            android:layout_centerInParent="true"
             android:layout_width="500dp"
             android:layout_height="200dp"
+            android:layout_below="@+id/tv_title"
+            android:layout_centerInParent="true"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="5dp"
             android:fadingEdgeLength="50dp"
-            android:layout_below="@+id/tv_title"
-            android:requiresFadingEdge="horizontal"
-            >
+            android:requiresFadingEdge="horizontal">
 
-            <TextView
-                android:id="@+id/tv_content"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingTop="10dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginRight="20dp"
-                android:layout_marginBottom="2dp"
-                android:singleLine="false"
-                android:text=""
-                android:textSize="16sp"
-                android:textColor="#282828"
-                android:lineSpacingMultiplier="1.2"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="2dp"
+                    android:lineSpacingMultiplier="1.2"
+                    android:paddingTop="10dp"
+                    android:singleLine="false"
+                    android:text=""
+                    android:textColor="#282828"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
         </ScrollView>
 
         <View
             android:id="@+id/view_1new"
             android:layout_width="500dp"
             android:layout_height="1dp"
-            android:background="#E7E7E7"
             android:layout_below="@+id/tv_1new"
+            android:layout_centerInParent="true"
             android:layout_marginTop="5dp"
-            android:layout_centerInParent="true"/>
+            android:background="#E7E7E7" />
+
         <View
             android:id="@+id/view_2new"
             android:layout_width="1dp"
-            android:layout_height="50dp"
-            android:background="#E7E7E7"
+            android:layout_height="60dp"
+            android:layout_below="@+id/view_1new"
             android:layout_centerHorizontal="true"
-            android:layout_below="@+id/view_1new"/>
-        <TextView
-            android:id="@+id/tv_cancelnew"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="不同意"
-            android:textStyle="bold"
-            android:textColor="@color/colorBlack"
-            android:layout_toLeftOf="@+id/view_2new"
-            android:layout_marginRight="50dp"
-            android:layout_below="@+id/view_1new"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="15dp"
-            android:padding="8dp"/>
+            android:background="#E7E7E7" />
 
-        <TextView
-            android:id="@+id/tv_agreenew"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="同意并继续                          "
-            android:textStyle="bold"
-            android:textColor="@color/colorBlack"
-            android:layout_toRightOf="@+id/view_2new"
-            android:layout_marginLeft="50dp"
+        <LinearLayout
+            android:layout_width="480dp"
+            android:layout_height="60dp"
             android:layout_below="@+id/view_1new"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="15dp"
-            android:padding="8dp"
-            />
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="1.5dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_privacy_agree"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_area_bg"
+                android:padding="8dp"
+                android:text="同意"
+                android:textColor="@color/gyyx_dialog_btn_txt"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btn_privacy_disagree"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_area_bg_privacy_disagree"
+                android:padding="8dp"
+                android:text="不同意"
+                android:textColor="@color/gyyx_dialog_btn_background"
+                android:textSize="16sp" />
+        </LinearLayout>
+
     </RelativeLayout>
 
 </LinearLayout>

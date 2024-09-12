@@ -12,6 +12,7 @@ import android.view.KeyEvent;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.github.gzuliyujiang.oaid.DeviceIdentifier;
@@ -45,10 +46,10 @@ public class PrivacyAgreementActivityNew extends Activity {
     }
     private void init() {
         TextView textView = findViewById(R.id.tv_content);
-        TextView tvCancel= findViewById(R.id.tv_cancelnew);
-        TextView tvAgree= findViewById(R.id.tv_agreenew);
-        tvCancel.setOnClickListener(view ->startFinish());
-        tvAgree.setOnClickListener(view -> enterApp());
+        Button btnCancel= findViewById(R.id.btn_privacy_disagree);
+        Button btnAgree= findViewById(R.id.btn_privacy_agree);
+        btnCancel.setOnClickListener(view ->startFinish());
+        btnAgree.setOnClickListener(view -> enterApp());
         String infoString = getIntent().getStringExtra("TIPS");
         String str = this.getString(R.string.authorize_dialog_content);//获取string xml中的内容
         textView.setText(str);
