@@ -22,7 +22,6 @@ public class MainActivity extends Activity{
     public static MySharedPreferences.SharedPreferencesUtil sharedPreferencesUtil;
     public static Context mContext;
     public static Activity mActivity;
-    //PrivacyAgreementActivity privacyAgreementActivity;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         mContext = this.getApplicationContext();
@@ -72,8 +71,6 @@ public class MainActivity extends Activity{
             //你可以在这里做你想要的效果
             if (isFirst) {
                 Log.i("GYYX","未同意过隐私协议app打开隐私同意");
-                //privacyAgreementActivity = new PrivacyAgreementActivity();
-                //privacyAgreementActivity.startDialog(MainActivity.this);
                 startActivity(new Intent(MainActivity.this, PrivacyAgreementActivityNew.class).putExtra("TIPS",tips));
 
             } else {

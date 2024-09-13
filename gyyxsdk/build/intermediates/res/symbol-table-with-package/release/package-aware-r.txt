@@ -794,7 +794,6 @@ id home
 id icon
 id icon_group
 id image
-id img1
 id info
 id italic
 id left
@@ -842,7 +841,6 @@ id src_over
 id start
 id submenuarrow
 id submit_area
-id sv_service_policy
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -862,20 +860,13 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
-id tv_1
 id tv_1new
-id tv_agree
-id tv_cancel
 id tv_content
 id tv_title
 id unchecked
 id uniform
 id up
 id usercenter_toolbar
-id view_1
-id view_1new
-id view_2
-id view_2new
 id w_WebView
 id wrap_content
 integer abc_config_activityDefaultDur
@@ -927,8 +918,6 @@ layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout privacy_activity_agree_content
-layout privacy_agreement_layout
-layout privacy_agreement_layout_fz
 layout privacy_agreement_layout_new
 layout select_dialog_item_material
 layout select_dialog_multichoice_material

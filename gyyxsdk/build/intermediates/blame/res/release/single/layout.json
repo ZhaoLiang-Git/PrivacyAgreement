@@ -84,10 +84,6 @@
         "source": "F:\\Android_Studio_Data\\.gradle\\caches\\transforms-2\\files-2.1\\ca831e20069c54326ebb8cc4d71f5b95\\appcompat-1.1.0\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
-        "merged": "E:\\A-GitProject\\PrivacyAgreementTool\\gyyxsdk\\build\\intermediates\\res\\merged\\release\\layout\\privacy_agreement_layout_fz.xml",
-        "source": "E:\\A-GitProject\\PrivacyAgreementTool\\gyyxsdk\\src\\main\\res\\layout\\privacy_agreement_layout_fz.xml"
-    },
-    {
         "merged": "E:\\A-GitProject\\PrivacyAgreementTool\\gyyxsdk\\build\\intermediates\\res\\merged\\release\\layout\\abc_tooltip.xml",
         "source": "F:\\Android_Studio_Data\\.gradle\\caches\\transforms-2\\files-2.1\\ca831e20069c54326ebb8cc4d71f5b95\\appcompat-1.1.0\\res\\layout\\abc_tooltip.xml"
     },
@@ -114,10 +110,6 @@
     {
         "merged": "E:\\A-GitProject\\PrivacyAgreementTool\\gyyxsdk\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_simple.xml",
         "source": "F:\\Android_Studio_Data\\.gradle\\caches\\transforms-2\\files-2.1\\ca831e20069c54326ebb8cc4d71f5b95\\appcompat-1.1.0\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
-        "merged": "E:\\A-GitProject\\PrivacyAgreementTool\\gyyxsdk\\build\\intermediates\\res\\merged\\release\\layout\\privacy_agreement_layout.xml",
-        "source": "E:\\A-GitProject\\PrivacyAgreementTool\\gyyxsdk\\src\\main\\res\\layout\\privacy_agreement_layout.xml"
     },
     {
         "merged": "E:\\A-GitProject\\PrivacyAgreementTool\\gyyxsdk\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_title_material.xml",
