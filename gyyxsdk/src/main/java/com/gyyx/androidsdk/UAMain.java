@@ -95,9 +95,30 @@ public class UAMain {
     public static String getWidevineID(){
         return DeviceIdentifier.getWidevineID();
     }
-    // 获取伪造ID，根据硬件信息生成，不会为空，有大概率会重复
-    public static String getPseudoID(){
-        return DeviceIdentifier.getPseudoID();
+    // 获取伪造ID，根据硬件信息生成，不会为空，有大概率会重复(基本上不会重复了在id之后加了时间戳)
+    public static String getPseudoID() {
+        String dvidid = "";
+        if (MainActivity.sharedPreferencesUtil != null) {
+            if (MainActivity.sharedPreferencesUtil.contains(MySharedPreferences.Contants.DEVICEID)) {
+                String data = (String) MainActivity.sharedPreferencesUtil.getData(MySharedPreferences.Contants.DEVICEID, "");
+                dvidid = data;
+            } else {
+                String dvid = DeviceIdentifier.getPseudoID() + System.currentTimeMillis();
+                MainActivity.sharedPreferencesUtil.saveData(MySharedPreferences.Contants.DEVICEID, dvid);
+                dvidid = dvid;
+            }
+        } else {
+            MySharedPreferences.SharedPreferencesUtil sharedPreferencesUtil = MySharedPreferences.SharedPreferencesUtil.getInstance(unityActivity);
+            if (sharedPreferencesUtil.contains(MySharedPreferences.Contants.DEVICEID)) {
+                String data = (String) sharedPreferencesUtil.getData(MySharedPreferences.Contants.DEVICEID, "");
+                dvidid = data;
+            } else {
+                String dvid = DeviceIdentifier.getPseudoID() + System.currentTimeMillis();
+                sharedPreferencesUtil.saveData(MySharedPreferences.Contants.DEVICEID, dvid);
+                dvidid = dvid;
+            }
+        }
+        return dvidid;
     }
     // 获取GUID，随机生成，不会为空
     public static String getGUID(){
